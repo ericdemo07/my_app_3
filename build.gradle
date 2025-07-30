@@ -1,0 +1,22 @@
+buildscript {
+    ext.kotlin_version = '1.8.21'
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.11.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()        // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

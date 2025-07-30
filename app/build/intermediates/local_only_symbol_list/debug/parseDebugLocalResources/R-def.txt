@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color colorPrimary
+color white
+drawable ic_launcher_foreground
+drawable platform_sprite
+drawable player_idle
+drawable player_jump
+drawable player_run1
+drawable player_run2
+drawable player_sprite
+id gameView
+id jumpButton
+id leftButton
+id rightButton
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style AppTheme
